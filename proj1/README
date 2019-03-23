@@ -1,0 +1,8 @@
+Connor Tremblay
+ctrembl1
+00667337
+
+I thought this project was pretty interesting. The code for the predictors was not too difficult,
+what was sort of interesting though was the design for the project. Each predictor exhibited 
+very similar behaivor making this a great fit for object inheritence, and this really allowed 
+me to get some good, practical practice with object oriented programming and using c++ templates.
