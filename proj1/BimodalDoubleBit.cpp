@@ -1,7 +1,7 @@
 #include "BimodalDoubleBit.h"
 
 BimodalDoubleBit :: BimodalDoubleBit(int size) {
-  this->mask = int(pow(2,size))-1;
+  this->mask = (1<<size)-1;
   this->history = new int[this->mask+1];
   for (int i = 0; i < this->mask+1; i++) {
     this->history[i] = 1;

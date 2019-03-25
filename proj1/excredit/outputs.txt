@@ -1,0 +1,7 @@
+21125860,23532921; //long_trace1.txt
+25248262,27946011; //long_trace2.txt
+12315353,14796021; //long_trace3.txt
+
+3372852,3771697; //short_trace1.txt
+2571905,2866495; //short_trace2.txt
+1957938,2229289; //short_trace3.txt
