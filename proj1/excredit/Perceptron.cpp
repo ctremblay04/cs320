@@ -55,17 +55,4 @@ void Perceptron :: train(long long addr, int actual, int prediction) {
   this->ghr = ((this->ghr<<1)&this->gmask)+((prediction >= 0) == actual);
 }
 
-string Perceptron :: to_string() {
-  /*string ret = "";
-  for (int i = 0; i < this->mask+1; i++) {
-    for (int j = 0; j < this->size+1; j++) {
-      ret += std::to_string(this->perceptrons[i][j]);
-      ret += ", ";
-    }
-    ret += '\n';
-  }
-  ret += Predictor::to_string();
-  return ret;*/
-  return Predictor::to_string();
-}
 

@@ -14,7 +14,6 @@ class Perceptron : public Predictor {
     int getTheta();
     int predict(long long addr);
     void update(long long addr, int p);
-    string to_string();
   private:
     int size;
     int** perceptrons;

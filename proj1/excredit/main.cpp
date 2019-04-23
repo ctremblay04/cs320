@@ -28,7 +28,6 @@ int main(int argc, char *argv[]) {
     }
   }
   for (vector<Predictor*>::iterator it = predictors.begin(); it != predictors.end(); ++it) {
-    cout << (*it)->to_string() << endl;
     outfile << (*it)->to_string() << endl;
   }
   for (vector<Predictor*>::iterator it = predictors.begin(); it != predictors.end(); ++it) {
