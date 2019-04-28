@@ -1,0 +1,5 @@
+Connor Tremblay
+ctrembl1
+B00667337
+
+The only thing that does not work is the LRU approximation. It gets very close to the desired output, however I am facing  some sort of edge case error that is giving slightly incorrect results (<1% error)
